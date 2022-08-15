@@ -11,13 +11,13 @@ target 'Flash Chat iOS13' do
 
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
-  pod 'Firebase/Core'
+  #pod 'Firebase/Core'
 
   pod 'FirebaseCore', :modular_headers => true
   pod 'FirebaseCoreInternal', :modular_headers => true
   pod 'GoogleUtilities', :modular_headers => true
 
-
+  pod 'IQKeyboardManagerSwift'
 
  
 end
